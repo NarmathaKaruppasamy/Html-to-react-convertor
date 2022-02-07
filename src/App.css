@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/Roboto-Regular.ttf") format("ttf"),
+    url("./fonts/Roboto-Regular.ttf") format("ttf");
+  font-weight: bold;
+  font-display: swap;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans";
+  font-weight: 500;
+}
